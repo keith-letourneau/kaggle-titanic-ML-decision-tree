@@ -4,6 +4,8 @@ import pandas as pd
 from pandas import DataFrame
 import numpy as np
 from sklearn import tree
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
 
 #load and visualize training dataset
 df_train = pd.read_csv(r'C:\Users\keith\OneDrive\Desktop\Python Scripts\Data Science\train.csv')
